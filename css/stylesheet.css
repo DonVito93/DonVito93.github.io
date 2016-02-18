@@ -1,0 +1,283 @@
+/*GLOBAL STYLES*/
+
+/*Primary color:#33ffff: light sky blue.
+Secondary Color:#5e9c19
+Third Color:#0eafa5
+*/
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Black Ops One', cursive;
+}
+
+h1, h2, h3 {
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #333333;
+}
+
+ul{
+  list-style-type:none;
+}
+
+/*HEADERS STYLE*/
+
+header {
+  height: 120px;
+  background-color: #999999;
+}
+
+#logo{
+  width: 300px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+#logo h1:hover{
+  color: #206040;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after{
+  content: " | ";
+  padding: 0px 10px;
+}
+
+#menu a:hover{
+  color: #00ff00;
+}
+
+/*BANNER STYLES*/
+
+#banner-home{
+  height: 250px;
+  background-color: #dddddd;
+  background-size: cover;
+  background: url(../img/space-banner.jpg) left;
+}
+
+#banner-home h1{
+  text-align: center;
+  padding: 95px 0px;
+}
+
+#banner-a{
+  height: 250px;
+  background-color: #33ffff ;
+  background-size: cover;
+  background: url(../img/chess.jpg) center;
+  background-size: cover;
+}
+#banner-a h1{
+  text-align: center;
+  padding: 95px 0px;
+  color: #7fed11;
+}
+
+
+/*BLOG STYLES*/
+.container{
+  width: 1200px;
+  margin: 0px auto;
+  overflow:hidden;
+}
+
+.blog-1, .blog-2{
+  width: 384px;
+  float: left;
+  margin-right: 24px;
+}
+
+.blog-3{
+  width: 384px;
+  float: left;
+}
+
+.blog-image{
+  height: 285px;
+  width: 380px;
+  margin: 0px 2px;
+}
+
+#blog h2{
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 2em
+  color: red;
+}
+
+#blog p{
+  text-align: justify;
+  color: red;
+}
+
+.button{
+  padding: 15px 35px;
+  background-color: #0eafa5;
+  border: 2px solid #0eafa5;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0px;
+}
+
+.button:hover{
+  background-color: #333;
+  color: #999999;
+}
+
+/*ABOUT STYLES*/
+#about{
+  border: 2px dotted #0eafa5
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+#about-header{
+  height: 120px;
+  background-color: #11eded;
+}
+
+.align-left{
+  margin-right: 24px;
+  margin-left: 10px;
+  float: left;
+  width: 390px;
+}
+
+.selfie{
+  height: 400px;
+  width: 380px;
+}
+
+figure {
+  margin: 0px;
+  padding: 0px;
+}
+
+#about h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  margin-top: 20px;
+  clear:both;
+}
+
+#copyright{
+  padding: 30px 0px;
+  background-color:#33ffff;
+  color:#5e9c19;
+  display: block;
+  text-align: center;
+}
+
+#copywright p{
+  font-size: .5em;
+  text-align: center;
+}
+.social {
+  text-align: center;
+}
+.fa {
+  heigt: 28px;
+  width: 28px;
+  background-color:#0eafa5 ;
+  color: red;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #fff;
+  border-radius: 100%;
+  font-size: 28px !important;
+}
+
+
+/*===== ABOUT PAGE STYELS =====*/
+#video {
+  withd: 100%;
+  position: relative;
+  padding-bottom: 56%;
+  padding-top: 30px
+}
+
+.video-container{
+  width: 98%;
+  margin: 0px auto;
+}
+#video iframe{
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+#about-page{
+  padding: 10px;
+}
+#about-page article {
+  width: 600px;
+  float: left;
+  padding: 10px
+}
+#about-page h1{
+  text-align:center;
+  font-size: 3em;
+}
+#about-page p{
+  line-height: 1.2em;
+  text-align: justify;
+}
+#about-page li{
+  padding: 2px;
+}
+.align-right {
+  margin-left: 20px;
+  margin-top: 65px;
+  float: right;
+  width: 520px;
+}
+
+/*===== ABOUT CONTACT STYLES =====*/
+#contact h3{
+  font-size: 2em;
+}
+#contact ul {
+  padding-left: 10px;
+}
+#contact{
+  padding: 2px 0px;
+}
+
+.map{
+  float: left;
+  margin: 20px 10px;
+}
+.info{
+  float: left;
+  margin-left: 35px;
+  margin-top: 10px;
+}
